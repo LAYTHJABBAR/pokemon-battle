@@ -4,6 +4,10 @@ import PokemonCard from './PokemonCard';
 import { getRandomElement } from '../utils/getRandomElement';
 import './BattleView.css';
 
+/**
+ * Represents the BattleView component.
+ * This component displays two Pokemon cards and allows the user to start a battle between them.
+ */
 const BattleView: React.FC = () => {
   const pokemon1 = usePokemon();
   const pokemon2 = usePokemon();
